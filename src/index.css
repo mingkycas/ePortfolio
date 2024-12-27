@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2family=Inter:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter", sans-serif;
+  
+}
+
+@keyframes cjTyping {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes caretFlicker {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Typing animation for Cj(); */
+.animate-cjTyping {
+  color: #E3B341; /* Yellow color for the text */
+  animation: cjTyping 2s steps(3) infinite; /* Animation for typing effect */
+  display: inline-block;
+}
+
+/* Flickering effect for the caret (|) */
+.animate-caret {
+  color: #E3B341; /* Same yellow color for the caret */
+  animation: caretFlicker 1s infinite;
+}
+
+
