@@ -30,8 +30,9 @@ const Navbar = () => {
       <ul className="hidden md:flex gap-8 text-base">
         {["HOME", "ABOUT", "PROJECTS", "CONTACT ME"].map((item) => (
           <li key={item} className="relative group">
+            {/* Adjust for Home */}
             <Link
-              to={`/${item.toLowerCase().replace(" ", "")}`}
+              to={item.toLowerCase() === "home" ? "/" : `/${item.toLowerCase().replace(" ", "")}`}
               className="text-[#AAAAAA] font-bold hover:text-[#E3B341] transition-colors duration-300"
             >
               {item}
@@ -50,8 +51,9 @@ const Navbar = () => {
         <ul className="flex flex-col items-center gap-6 text-base">
           {["HOME", "ABOUT", "PROJECTS", "CONTACT ME"].map((item) => (
             <li key={item} className="relative group">
+              {/* Adjust for Home */}
               <Link
-                to={`/${item.toLowerCase().replace(" ", "")}`}
+                to={item.toLowerCase() === "home" ? "/" : `/${item.toLowerCase().replace(" ", "")}`}
                 className="text-[#AAAAAA] font-bold hover:text-[#E3B341] transition-colors duration-300"
                 onClick={toggleMenu} // Close the menu after clicking a link
               >
