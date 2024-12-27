@@ -158,4 +158,4 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
         .animate-iconHover:hover {
           animation: iconHover 0.3s ease-out forwards;
         }
-      `})]}),Bm=()=>_.jsxs(fm,{children:[_.jsx(jm,{}),_.jsxs($p,{children:[_.jsx(Dr,{path:"/",element:_.jsx(zm,{})}),_.jsx(Dr,{path:"/about",element:_.jsx(Dm,{})}),_.jsx(Dr,{path:"/projects",element:_.jsx(Mm,{})}),_.jsx(Dr,{path:"/contact",element:_.jsx(Um,{})})]})]});Jd.createRoot(document.getElementById("root")).render(_.jsx(N.StrictMode,{children:_.jsx(Bm,{})}));
+      `})]}),Bm=()=>_.jsxs(fm,{basename:"/ePortfolio",children:[_.jsx(jm,{}),_.jsxs($p,{children:[_.jsx(Dr,{path:"/",element:_.jsx(zm,{})}),_.jsx(Dr,{path:"/about",element:_.jsx(Dm,{})}),_.jsx(Dr,{path:"/projects",element:_.jsx(Mm,{})}),_.jsx(Dr,{path:"/contact",element:_.jsx(Um,{})})]})]});Jd.createRoot(document.getElementById("root")).render(_.jsx(N.StrictMode,{children:_.jsx(Bm,{})}));
