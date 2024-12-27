@@ -1,50 +1,60 @@
-# React + TypeScript + Vite
+# ePortfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This is my **ePortfolio**, a personal website to showcase my skills, projects, and achievements. The ePortfolio includes sections like **Home**, **About Me**, **Projects**, and **Contact Me**, which provides insight into my journey as a front-end developer and my projects in the field of web development. The website is responsive and designed to provide a smooth and professional user experience.
 
-Currently, two official plugins are available:
+## Technologies Used
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A build tool that provides fast development and build processes.
+- **TypeScript**: A superset of JavaScript that adds type safety to the codebase.
+- **TailwindCSS**: A utility-first CSS framework for fast UI development.
+- **React Router**: A library for handling routing and navigation in React applications.
+- **Font Awesome**: A popular icon library.
+- **gh-pages**: A package for deploying the app to GitHub Pages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Responsive Design**: Optimized for both mobile and desktop screens.
+- **Routing**: Includes different pages like Home, About, Projects, and Contact.
+- **Modern UI**: Clean, simple, and visually appealing design.
+- **Deployment**: Hosted on GitHub Pages.
 
-## Expanding the ESLint configuration
+## How to Replicate or Contribute
+If you’d like to replicate or contribute to this project, follow these steps:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prerequisites
+- **Node.js**: Make sure you have Node.js installed. You can download it from [here](https://nodejs.org/).
+- **npm**: Node.js comes with npm (Node Package Manager) installed. If you prefer yarn, you can use it as well.
 
-- Configure the top-level `parserOptions` property like this:
+### Steps to Run Locally
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/mingkycas/ePortfolio.git
+    ```
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+2. **Navigate to the project directory**:
+    ```bash
+    cd ePortfolio
+    ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+3. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+4. **Start the development server**:
+    ```bash
+    npm run dev
+    ```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+    This will run the app locally at `http://localhost:3000`.
+
+### Deploying to GitHub Pages
+1. Build the project for production:
+    ```bash
+    npm run build
+    ```
+
+2. Deploy to GitHub Pages using the `gh-pages` branch:
+    ```bash
+    npm run deploy
+    ```
