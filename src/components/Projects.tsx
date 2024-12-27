@@ -39,7 +39,7 @@ const Projects = () => {
               href={project.link} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-[#1C1C1C] p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:scale-105 hover:shadow-[0_0_25px_3px_rgba(227,179,65,0.7)] animate-cardSlideIn"
+              className="bg-[#1C1C1C] p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:shadow-[0_0_25px_3px_rgba(227,179,65,0.7)] animate-cardSlideIn"
             >
               <img
                 src={project.image}

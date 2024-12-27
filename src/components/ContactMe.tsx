@@ -135,6 +135,31 @@ const ContactMe: React.FC = () => {
         .animate-iconHover:hover {
           animation: iconHover 0.3s ease-out forwards;
         }
+
+        /* Responsiveness for smaller screens */
+        @media (max-width: 768px) {
+          .max-w-4xl {
+            max-width: 100%;
+          }
+          .contact-content {
+            padding: 4px;
+          }
+          .contact-box h2 {
+            font-size: 1.5rem;
+          }
+          .contact-box p,
+          .contact-form input,
+          .contact-form textarea {
+            font-size: 0.875rem;
+          }
+          .flex {
+            flex-direction: column;
+            align-items: center;
+          }
+          .space-x-6 {
+            margin-top: 16px;
+          }
+        }
       `}</style>
     </div>
   );

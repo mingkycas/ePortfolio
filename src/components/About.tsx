@@ -7,7 +7,7 @@ const About = () => {
         {/* About Section */}
         <div className="flex flex-col md:flex-row items-center bg-[#1C1C1C] rounded-lg p-8 shadow-md">
           {/* Profile Image */}
-          <div className="w-64 h-64 rounded-full border-4 border-[#E3B341] shadow-[0_0_20px_5px_rgba(227,179,65,0.7)] overflow-hidden flex-shrink-0 animate-slideFromCenter">
+          <div className="w-64 h-64 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-full border-4 border-[#E3B341] shadow-[0_0_20px_5px_rgba(227,179,65,0.7)] overflow-hidden flex-shrink-0 animate-slideFromCenter">
             <img
               src={profile}
               alt="Profile"
@@ -17,11 +17,11 @@ const About = () => {
           {/* About Text */}
           <div className="md:ml-8 animate-fadeInFromLeft">
             <h2 className="text-2xl font-bold mb-4">About Me</h2>
-            <p className="text-[#AAAAAA]">
+            <p className="text-[#AAAAAA] text-sm md:text-base leading-relaxed">
               Hi everyone! My name is Casey Saguing. I'm a third-year Computer Science student at the University of Science and Technology of Southeastern Philippines, with a passion for web development.
               As an aspiring front-end developer, I focus on crafting seamless, responsive, and visually appealing websites that offer an outstanding user experience.
             </p>
-            <p className="text-[#AAAAAA] mt-4">
+            <p className="text-[#AAAAAA] mt-4 text-sm md:text-base leading-relaxed">
               My goal is to bring your ideas to life and deliver solutions that meet your needs with clean, efficient code. Let’s connect!
             </p>
           </div>

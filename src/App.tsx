@@ -10,10 +10,10 @@ const App = () => {
     <Router basename="/ePortfolio"> 
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element ={<Projects/>}/>
-        <Route path="/contact" element ={<ContactMe/>}/>
+        <Route path="/contactme" element ={<ContactMe/>}/>
       </Routes>
     </Router>
   );
