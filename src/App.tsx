@@ -7,7 +7,7 @@ import ContactMe from "./components/ContactMe";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/ePortfolio"> 
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
