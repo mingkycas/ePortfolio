@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mingkycas.github.io/ePortfolio",
+  "homepage": "https://mingkycas.github.io/ePortfolio/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
