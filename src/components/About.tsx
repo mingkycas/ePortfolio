@@ -2,12 +2,14 @@ import profile from "../assets/Profile.jpg";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-[#0D1117] text-white px-8 py-16">
+    <div className="min-h-screen bg-[#0D1117] text-white px-8 py-16 pt-24">
+      {/* Added pt-24 for extra padding on top */}
       <div className="max-w-5xl mx-auto">
         {/* About Section */}
         <div className="flex flex-col md:flex-row items-center bg-[#1C1C1C] rounded-lg p-8 shadow-md">
           {/* Profile Image */}
-          <div className="w-64 h-64 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-full border-4 border-[#E3B341] shadow-[0_0_20px_5px_rgba(227,179,65,0.7)] overflow-hidden flex-shrink-0 animate-slideFromCenter">
+          <div className="w-48 h-48 md:w-48 md:h-48 lg:w-64 lg:h-64 rounded-full border-4 border-[#E3B341] shadow-[0_0_20px_5px_rgba(227,179,65,0.7)] overflow-hidden flex-shrink-0 mt-16 animate-slideFromCenter">
+            {/* Adding margin-top for the image container */}
             <img
               src={profile}
               alt="Profile"
