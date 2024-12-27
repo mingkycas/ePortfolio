@@ -58,3 +58,13 @@ If you’d like to replicate or contribute to this project, follow these steps:
     ```bash
     npm run deploy
     ```
+
+### Contributing
+If you’d like to contribute to this project, feel free to fork the repository, make changes, and open a pull request. Please follow the steps below to contribute:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-name`.
+3. Make your changes.
+4. Commit your changes: `git commit -m 'Add new feature'`.
+5. Push to your forked repository: `git push origin feature-name`.
+6. Open a pull request to the main repository.
