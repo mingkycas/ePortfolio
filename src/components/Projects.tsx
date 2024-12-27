@@ -15,7 +15,7 @@ const projects = [
     description: "A real-time chat website built on a peer-to-peer (P2P) model, allowing users to chat directly without relying on a central server.",
     technologies: "JavaScript, CSS, HTML",
     image: p2pChatImage, 
-    link: "https://example.com/sahabat-muslim" 
+    link: "https://github.com/mingkycas/P2P-Chat-App" 
   },
   {
     title: "PDA Simulator",
